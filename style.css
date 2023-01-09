@@ -1,0 +1,55 @@
+* {
+}
+
+body {
+    background-color: #36393F;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+.container > * {
+    text-align: center;
+    color: white;
+}
+
+.equation {
+    margin-top: 30px;
+}
+
+.solutions {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #75757a;
+    font-family: Calibri, serif;
+    padding: 5px;
+    box-shadow: 0 5px black;
+    transition: box-shadow .2s, translate .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 black;
+    translate: 0 5px;
+}
+
+.buttons {
+    #display: flex;
+    display: none;
+}
+
+.buttons > .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    outline: none;
+}
